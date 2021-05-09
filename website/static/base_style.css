@@ -1,0 +1,32 @@
+@font-face {
+    src: url(fonts/PTSans-Regular.ttf);
+    font-family: ptsans;
+}
+
+/* * {
+    outline: white 1px solid;
+
+} */
+
+/* Main part and settings */
+* {
+    font-family: ptsans;
+    margin: 0;
+    padding: 0;    
+}
+html, body {
+    background-color: #070C0F;
+    color:aliceblue;
+}
+/* Page header */
+.page-header-div {
+    width: 100%;
+    background-color: #101C23;
+}
+.page-header-title-div {
+    text-align: center;
+    font-size: 35px;
+}
+.page-header-title-page {
+    font-size: 30px;
+}

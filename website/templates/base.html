@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style/base_style.css">
+        <link rel="stylesheet" href="{{url_for('static', filename='base_style.css')}}"/>
+        <!-- <link rel="stylesheet" href="{{url_for('static', filename='color_style.css')}}"/> -->
         <title>
             PitrDev - 
             {% block title %}
@@ -12,6 +13,29 @@
         </title>
     </head>
     <body>
+        <div>
+            <div class="page-header-div">
+                <div class="page-header-title-div">
+                    <p class="page-header-title">
+                        <span class="page-header-title-main">
+                            <span class="text-color-red1">
+                                Pitr
+                                <span class="text-color-white1">
+                                    Dev - 
+                                </span>
+                            </span>
+                        </span>
+                        <span class="page-header-title-page">
+                            {% block page_header_title%}
+                                Base page
+                            {% endblock %}
+                        </span>
+                    </p>
+                </div>
+                <div class="page-header-nav-div">
 
+                </div>
+            </div>
+        </div>
     </body>
 </html>
