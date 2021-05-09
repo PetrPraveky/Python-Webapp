@@ -38,42 +38,34 @@
                     </div>
                     <hr class="page-header-separator gradient-background">
                     <div class="page-header-nav-div">
-                        <div class="page-header-nav-opts">
-                            <div class="page-header-nav-opt-1">
+                        {% block page_header_nav_opt1 %}
+                            <div class="page-header-nav-opts">
                                 <b>
-                                    {% block page_header_nav_opt1 %}
-                                            Home
-                                    {% endblock %}
+                                    Home
                                 </b>
                             </div>
-                        </div>
-                        <div class="page-header-nav-opts">
-                            <div class="page-header-nav-opt-2">
+                        {% endblock %}
+                        {% block page_header_nav_opt2 %}
+                            <div class="page-header-nav-opts">
                                 <b>
-                                    {% block page_header_nav_opt2 %}
-                                        Informations
-                                    {% endblock %}
+                                    Informations
                                 </b>                            
                             </div>
-                        </div>
-                        <div class="page-header-nav-opts">
-                            <div class="page-header-nav-opt-3">
+                        {% endblock %}
+                        {% block page_header_nav_opt3 %}
+                            <div class="page-header-nav-opts">
                                 <b>
-                                    {% block page_header_nav_opt3 %}
-                                        Showcase
-                                    {% endblock %}
+                                    Showcase
                                 </b>                            
                             </div>
-                        </div>
-                        <div class="page-header-nav-opts">
-                            <div class="page-header-nav-opt-4">
+                        {% endblock %}
+                        {% block page_header_nav_opt4 %}
+                            <div class="page-header-nav-opts">
                                 <b>
-                                    {% block page_header_nav_opt4 %}
-                                        Contact
-                                    {% endblock %}
+                                    Contact
                                 </b>                        
                             </div>
-                        </div>
+                        {% endblock %}
                     </div>
                 </div>
             </div>
