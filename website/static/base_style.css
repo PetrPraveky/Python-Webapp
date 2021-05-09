@@ -65,9 +65,3 @@ html, body {
     width: 25%;
     text-align: center;
 }
-
-.page-header-nav-opts:hover {
-    background-color: rgba(161, 161, 161, 0.281);
-    cursor: pointer;
-    transition: 0.4s;
-}

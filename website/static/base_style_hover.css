@@ -1,0 +1,13 @@
+/* Main part and settings */
+* {
+    font-family: ptsans;
+    margin: 0;
+    padding: 0;    
+}
+/* Hover */
+/* Page header */
+.page-header-nav-opts:hover {
+    background-color: rgba(161, 161, 161, 0.281);
+    cursor: pointer;
+    transition: 0.4s;
+}
