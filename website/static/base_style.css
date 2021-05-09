@@ -2,8 +2,8 @@
     src: url(fonts/PTSans-Regular.ttf);
     font-family: ptsans;
 }
-/* 
-* {
+
+/* * {
     outline: white 1px solid;
 
 } */
@@ -15,7 +15,7 @@
     padding: 0;    
 }
 html, body {
-    background-color: #070C0F;
+    background-color: #0a1114;
     color:aliceblue;
 }
 /* Gradient text */
@@ -52,6 +52,22 @@ html, body {
     font-size: 35px;
 }
 .page-header-title-page {
-    font-size: 30px;
+    font-size: 27px;
 }
 /* Page header navigation */
+.page-header-nav-div {
+    display: flex;
+}
+.page-header-nav-opts {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 20px;
+    width: 25%;
+    text-align: center;
+}
+
+.page-header-nav-opts:hover {
+    background-color: rgba(161, 161, 161, 0.281);
+    cursor: pointer;
+    transition: 0.4s;
+}
