@@ -2,8 +2,8 @@
     src: url(fonts/PTSans-Regular.ttf);
     font-family: ptsans;
 }
-
-/* * {
+/* 
+* {
     outline: white 1px solid;
 
 } */
@@ -18,15 +18,40 @@ html, body {
     background-color: #070C0F;
     color:aliceblue;
 }
+/* Gradient text */
+.gradient-background {
+    background: linear-gradient(to right, #FF0000, #00FF04, #FF0000);
+}
+.gradient-text {
+    background-image: -webkit-linear-gradient(left, #FF0000, #00FF04, #FF0000); /* Chrome and Safari */
+    background-image: -moz-linear-gradient(left, #FF0000, #00FF04, #FF0000); /* old Fx (3.6 to 15) */
+    background-image: -ms-linear-gradient(left, #FF0000, #00FF04, #FF0000); /* pre-releases of IE 10*/
+    background-image: -o-linear-gradient(left, #FF0000, #00FF04, #FF0000); /* old Opera (11.1 to 12.0) */
+    background-image: linear-gradient(to right, #FF0000, #00FF04, #FF0000); /* ndard syntax; must be last */
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text; 
+}
 /* Page header */
 .page-header-div {
     width: 100%;
-    background-color: #101C23;
+    background-color: #070C0F;
 }
+.page-header-separator {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 2px;
+}
+/* Page header upper line */
+
+/* Page header title */
 .page-header-title-div {
+    padding-top: 0px;
     text-align: center;
     font-size: 35px;
 }
 .page-header-title-page {
     font-size: 30px;
 }
+/* Page header navigation */
