@@ -16,7 +16,27 @@
         <div>
             <div class="page-header-div">
                 <div class="page-header-upper-div">
-
+                    {% block page_header_upper_opt1 %}
+                        <div class="page-header-upper-opts">
+                            <p>
+                                Sign Up
+                            </p>
+                        </div>
+                    {% endblock %}
+                    {% block page_header_upper_opt2 %}
+                        <div class="page-header-upper-opts">
+                            <p>
+                                Login
+                            </p>
+                        </div>
+                    {% endblock %}
+                    {% block page_header_upper_opt3 %}
+                        <div class="page-header-upper-opts">
+                            <p>
+                                Settings
+                            </p>
+                        </div>
+                    {% endblock %}
                 </div>
                 <hr class="page-header-separator gradient-background">
                 <div class="gradient-text">

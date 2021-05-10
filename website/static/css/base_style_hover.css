@@ -11,3 +11,9 @@
     cursor: pointer;
     transition: 0.4s;
 }
+.page-header-upper-opts:hover {
+    text-decoration: underline;
+    background-color: rgba(161, 161, 161, 0.281);
+    cursor: pointer;
+    transition: 0.4s;
+}

@@ -4,7 +4,7 @@
 }
 
 /* * {
-    outline: white 1px solid;
+    outline: red 1px solid;
 
 } */
 
@@ -19,19 +19,19 @@ a {
     text-decoration: inherit; /* no underline */
 }
 html, body {
-    background-color: #0a1114;
+    background-color: #0D1317;
     color:aliceblue;
 }
 /* Gradient text */
 .gradient-background {
-    background: linear-gradient(to right, #FF0000, #00FF04, #FF0000);
+    background: linear-gradient(to right, #bdbdbd, #ececec, #bdbdbd);
 }
 .gradient-text {
-    background-image: -webkit-linear-gradient(left, #FF0000, #00FF04, #FF0000); /* Chrome and Safari */
-    background-image: -moz-linear-gradient(left, #FF0000, #00FF04, #FF0000); /* old Fx (3.6 to 15) */
-    background-image: -ms-linear-gradient(left, #FF0000, #00FF04, #FF0000); /* pre-releases of IE 10*/
-    background-image: -o-linear-gradient(left, #FF0000, #00FF04, #FF0000); /* old Opera (11.1 to 12.0) */
-    background-image: linear-gradient(to right, #FF0000, #00FF04, #FF0000); /* ndard syntax; must be last */
+    background-image: -webkit-linear-gradient(left, #bdbdbd, #ececec, #bdbdbd); /* Chrome and Safari */
+    background-image: -moz-linear-gradient(left, #bdbdbd, #ececec, #bdbdbd); /* old Fx (3.6 to 15) */
+    background-image: -ms-linear-gradient(left, #bdbdbd, #ececec, #bdbdbd); /* pre-releases of IE 10*/
+    background-image: -o-linear-gradient(left, #bdbdbd, #ececec, #bdbdbd); /* old Opera (11.1 to 12.0) */
+    background-image: linear-gradient(to right, #bdbdbd, #ececec, #bdbdbd); /* ndard syntax; must be last */
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text; 
@@ -39,7 +39,7 @@ html, body {
 /* Page header */
 .page-header-div {
     width: 100%;
-    background-color: #070C0F;
+    background-color: #0B1115;
 }
 .page-header-separator {
     padding: 0;
@@ -48,7 +48,17 @@ html, body {
     height: 2px;
 }
 /* Page header upper line */
-
+.page-header-upper-div {
+    width: 24%;
+    color: #bdbdbd;
+    padding-bottom: 2px;
+    display: flex;
+    padding-left: 76%;
+}
+.page-header-upper-opts {
+    width: 33.33%;
+    text-align: center;
+}
 /* Page header title */
 .page-header-title-div {
     padding-top: 0px;
