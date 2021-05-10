@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="{{url_for('static', filename='base_style.css')}}"/>
-        <link rel="stylesheet" href="{{url_for('static', filename='base_style_hover.css')}}"/>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/base_style.css')}}"/>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/base_style_hover.css')}}"/>
         <title>
             PitrDev - 
             {% block title %}
@@ -53,14 +53,14 @@
                             </a>
                         {% endblock %}
                         {% block page_header_nav_opt3 %}
-                            <a class="page-header-nav-opts">
+                            <a class="page-header-nav-opts" href="/showcase">
                                 <b>
                                     Showcase
                                 </b>                            
                             </a>
                         {% endblock %}
                         {% block page_header_nav_opt4 %}
-                            <a class="page-header-nav-opts">
+                            <a class="page-header-nav-opts" href="/contact">
                                 <b>
                                     Contact
                                 </b>                        

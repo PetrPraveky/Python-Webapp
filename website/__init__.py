@@ -13,7 +13,13 @@ def views_site():
     @views.route('/info')
     def info():
         return render_template('info.html')
-    
+    @views.route('/showcase')
+    def show():
+        return render_template('show.html')
+    @views.route('/contact')
+    def contact():
+        return render_template('contact.html')
+
     return views
 
 def create_app():
