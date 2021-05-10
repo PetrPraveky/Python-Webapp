@@ -21,6 +21,7 @@ a {
 html, body {
     background-color: #0D1317;
     color:aliceblue;
+    height: 100%;
 }
 /* Gradient text */
 .gradient-background {
@@ -76,3 +77,4 @@ html, body {
     width: 25%;
     text-align: center;
 }
+/* Page header  */

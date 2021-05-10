@@ -7,15 +7,13 @@
 /* Hover */
 /* Page header */
 .page-header-nav-opts:hover {
-    background-color: rgba(161, 161, 161, 0.281);
+    background-image: linear-gradient(to right, rgba(161, 161, 161, 0.231),rgba(161, 161, 161, 0.281),rgba(161, 161, 161, 0.231) );
     cursor: pointer;
-    transition: 0.4s;
 }
 .page-header-upper-opts:hover {
     text-decoration: underline;
-    background-color: rgba(161, 161, 161, 0.281);
+    background-image: linear-gradient(to right, rgba(161, 161, 161, 0.231),rgba(161, 161, 161, 0.281),rgba(161, 161, 161, 0.231) );
     cursor: pointer;
-    transition: 0.4s;
 }
 .noHover {
     pointer-events: none;

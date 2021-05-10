@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="{{url_for('static', filename='css/base_style.css')}}"/>
-        <link rel="stylesheet" href="{{url_for('static', filename='css/base_style_hover.css')}}"/>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/base_header_style.css')}}"/>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/base_header_style_hover.css')}}"/>
         <title>
             PitrDev - 
             {% block title %}
@@ -45,7 +45,7 @@
                             <p class="page-header-title">
                                 <b>
                                     <span class="page-header-title-main">
-                                        <span class="text-color-red1">Pitr</span>Dev 
+                                        PitrDev 
                                     </span>
                                 </b>
                             </p>
@@ -83,6 +83,9 @@
                         {% endblock %}
                     </div>
                 </div>
+            </div>
+            <div class="page-header-image-div">
+                <span></span>
             </div>
         </div>
     </body>
