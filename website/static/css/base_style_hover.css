@@ -17,3 +17,6 @@
     cursor: pointer;
     transition: 0.4s;
 }
+.noHover {
+    pointer-events: none;
+}

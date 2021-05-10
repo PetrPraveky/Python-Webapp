@@ -65,9 +65,6 @@ html, body {
     text-align: center;
     font-size: 35px;
 }
-.page-header-title-page {
-    font-size: 25px;
-}
 /* Page header navigation */
 .page-header-nav-div {
     display: flex;
