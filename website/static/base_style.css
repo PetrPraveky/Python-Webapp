@@ -14,6 +14,10 @@
     margin: 0;
     padding: 0;    
 }
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
 html, body {
     background-color: #0a1114;
     color:aliceblue;
@@ -52,7 +56,7 @@ html, body {
     font-size: 35px;
 }
 .page-header-title-page {
-    font-size: 27px;
+    font-size: 25px;
 }
 /* Page header navigation */
 .page-header-nav-div {
