@@ -104,3 +104,8 @@ html, body {
     mix-blend-mode: overlay;
     text-shadow: 0 5px 10px #dbdbdb;
 }
+
+/* Main style */
+.main-site-div {
+    width: 100%;
+}

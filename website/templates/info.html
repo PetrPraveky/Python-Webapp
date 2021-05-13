@@ -1,5 +1,7 @@
 {% extends "base.html" %} 
 
+{% block edit_style %} <link rel="stylesheet" href="{{url_for('static', filename='css/subsites/info_subsite_style.css')}}"> {% endblock %}
+
 {% block title %}Informations{% endblock %}
 {% block page_header_nav_opt2 %}
 <a class="page-header-nav-opts noHover" style="background-image: linear-gradient(to right, rgba(161, 161, 161, 0.231),rgba(161, 161, 161, 0.281),rgba(161, 161, 161, 0.231) )">
@@ -9,3 +11,5 @@
 </a>
 {% endblock %}
 {% block page_header_image_title %}INFO{% endblock %}
+
+{% block page_main_strucuture %}{% include 'sub-sites/info-subsite.html' %}{% endblock %}

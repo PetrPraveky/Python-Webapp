@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{url_for('static', filename='css/base_header_style.css')}}"/>
         <link rel="stylesheet" href="{{url_for('static', filename='css/base_header_style_hover.css')}}"/>
+        {% block edit_style %}
+        {% endblock %}
         <title>
             PitrDev - 
             {% block title %}
@@ -97,9 +99,12 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="main-site-div">
                 {% block page_main_strucuture %}
                 {% endblock %}
+            </div>
+            <div class="page-footer-div">
+                
             </div>
         </div>
     </body>
