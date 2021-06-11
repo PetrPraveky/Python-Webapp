@@ -28,7 +28,7 @@
 .info-subsite-img-1 {
     width: 100%;
     border: #070b0e 10px solid;
-    max-height: 300px;
+    max-height: 280px;
 }
 .info-subsite-title-2 {
     text-align: right;
@@ -43,7 +43,6 @@
 .img-padding {
     padding-top: 25px;
     width: 45%;
-    /* float: left; */
     display: inline-block;
     background-color: #0B1115;
 }
