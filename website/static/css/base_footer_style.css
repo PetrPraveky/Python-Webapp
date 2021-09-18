@@ -1,10 +1,20 @@
 .page-footer-div {
     width: 100%;
-    position: absolute;
-    bottom: 5px;
+    position: fixed;
+    bottom: 0px;
+    /* outline: red 1px solid; */
 }
 .page-footer-text {
-    text-align: right;
-    padding-right: 150px;
     color: rgb(44, 59, 71);
+    pointer-events: none;
+    user-select: none;
+    width: 100%;
+}
+.page-footer-autor {
+    float: left;
+    padding-left: 25px;
+}
+.page-footer-copyright {
+    float: right;
+    padding-right: 25px;
 }

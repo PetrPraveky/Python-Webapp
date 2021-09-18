@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{url_for('static', filename='css/base_header_style.css')}}"/>
         <link rel="stylesheet" href="{{url_for('static', filename='css/base_header_style_hover.css')}}"/>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/base_footer_style.css')}}"/>
         {% block edit_style %}
         {% endblock %}
         <title>
@@ -47,7 +48,7 @@
                             <p class="page-header-title">
                                 <b>
                                     <span class="page-header-title-main">
-                                        PitrDev 
+                                        PitrDev
                                     </span>
                                 </b>
                             </p>
@@ -105,9 +106,12 @@
             </div>
             <div class="page-footer-div">
                 <div class="page-footer-text">
-                    <p>
-                        this page is made by Peter
-                    </p>
+                    <span class="page-footer-autor">
+                        PitrDev
+                    </span>
+                    <span class="page-footer-copyright">
+                        © THIS PAGE WAS MADE BY PETER
+                    </span>
                 </div>
             </div>
         </div>

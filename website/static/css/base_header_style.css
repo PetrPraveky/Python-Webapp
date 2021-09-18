@@ -108,4 +108,5 @@ html, body {
 /* Main style */
 .main-site-div {
     width: 100%;
+    padding-bottom: 30px;
 }
